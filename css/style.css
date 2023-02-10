@@ -44,6 +44,10 @@ __________________*/
 
 /* jumbotron */
 
+#jumbotron {
+    background-color: var(--acqua);
+}
+
 /* portfolio */
 
 /* about */
