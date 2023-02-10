@@ -6,6 +6,14 @@ TABLET: <=1120px
 __________________*/
 
 
+@media screen and (min-width: 1120px) {
+    nav ul {
+        display: initial;
+    }
+    nav button {
+        display: none;
+    }
+}
 
 /* ______________
 

@@ -4,6 +4,19 @@ COMMON
 
 __________________*/
 
+/* ______________
+
+DEBUG
+
+__________________*/
+
+.debug nav {
+    background-color: brown;
+}
+
+.debug nav>* {
+    background-color: blue;
+}
 
 /* ______________
 
@@ -11,14 +24,39 @@ HEADER
 
 __________________*/
 
+header {
+    background-color: var(--dark-acqua);
+}
+
+nav {
+    min-height: 5.625rem;
+}
+
+nav ul {
+    display: none;
+}
+
 /* ______________
 
 MAIN
 
 __________________*/
 
+/* jumbotron */
+
+/* portfolio */
+
+/* about */
+
+/* contact */
+
 /* ______________
 
 FOOTER
 
 __________________*/
+
+/* footer-top*/
+
+
+/* footer-bottom*/
