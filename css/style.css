@@ -80,8 +80,17 @@ footer section{
     background-color: var(--l-dark-acqua);
 }
 
+#footer-top li{
+    background-color: inherit;
+    border: 0;
+}
+
 /* footer-bottom*/
 
 #footer-top {
     background-color: var(--dark-acqua);
+}
+
+#footer-bottom {
+    background-color: var(--l-dark-acqua);
 }
