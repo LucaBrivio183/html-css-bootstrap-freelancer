@@ -63,6 +63,15 @@ main section {
     background-color: var(--acqua);
 }
 
+#jumbotron li{
+    background-color: inherit;
+    border: 0;
+}
+
+#jumbotron .img-box {
+    width: 14.375rem;
+    height: 14.375rem;
+}
 /* portfolio */
 
 
