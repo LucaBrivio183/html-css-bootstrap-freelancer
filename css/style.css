@@ -43,7 +43,7 @@ MAIN
 __________________*/
 
 main section {
-    margin: 5rem 0;
+    padding: 2.5rem 0;
 }
 
 /* jumbotron */
@@ -57,7 +57,12 @@ main section {
 
 /* about */
 
+#about  {
+    background-color: var(--acqua);
+}
+
 /* contact */
+
 
 /* ______________
 
@@ -65,7 +70,18 @@ FOOTER
 
 __________________*/
 
+footer section{
+    padding: 2.5rem 0;
+}
+
 /* footer-top*/
 
+#footer-top {
+    background-color: var(--l-dark-acqua);
+}
 
 /* footer-bottom*/
+
+#footer-top {
+    background-color: var(--dark-acqua);
+}
