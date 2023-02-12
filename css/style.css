@@ -42,6 +42,10 @@ MAIN
 
 __________________*/
 
+main section {
+    margin: 5rem 0;
+}
+
 /* jumbotron */
 
 #jumbotron {
@@ -49,6 +53,7 @@ __________________*/
 }
 
 /* portfolio */
+
 
 /* about */
 
