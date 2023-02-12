@@ -4,6 +4,17 @@ COMMON
 
 __________________*/
 
+.star-hr {
+    width: 40%;
+}
+
+.star-hr>div {
+    border: .125rem solid white;
+}
+
+.star-hr>*{
+    color: white;
+}
 /* ______________
 
 DEBUG
