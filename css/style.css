@@ -4,6 +4,10 @@ COMMON
 
 __________________*/
 
+body {
+    color: white;
+}
+
 .star-hr {
     width: 40%;
 }
@@ -13,20 +17,21 @@ __________________*/
 }
 
 .star-hr>*{
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+
+.btn{
+    border-color: white;
     color: white;
 }
-/* ______________
 
-DEBUG
-
-__________________*/
-
-.debug nav {
-    background-color: brown;
-}
-
-.debug nav>* {
-    background-color: blue;
+.btn:hover {
+    color: white;
 }
 
 /* ______________
@@ -66,19 +71,32 @@ main section {
 #jumbotron li{
     background-color: inherit;
     border: 0;
+    color: white;
 }
 
 #jumbotron .img-box {
     width: 14.375rem;
     height: 14.375rem;
 }
+
 /* portfolio */
 
+#portfolio {
+    color: var(--dark-acqua);
+}
+
+#portfolio .star-hr>div {
+    border: .125rem solid var(--dark-acqua);
+}
 
 /* about */
 
 #about  {
     background-color: var(--acqua);
+}
+
+#about  .btn:hover {
+    background-color: var(--dark-acqua);
 }
 
 /* contact */
@@ -103,14 +121,20 @@ footer section{
 #footer-top li{
     background-color: inherit;
     border: 0;
+
+}
+
+#footer-top .btn {
+    width: 3.4375rem;
+    height: 3.4375rem;
+}
+
+#footer-top .btn:hover {
+    background-color: var(--acqua);
 }
 
 /* footer-bottom*/
 
-#footer-top {
-    background-color: var(--dark-acqua);
-}
-
 #footer-bottom {
-    background-color: var(--l-dark-acqua);
+    background-color: var(--dark-acqua);
 }
