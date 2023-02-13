@@ -133,11 +133,23 @@ main section {
     border: .125rem solid var(--dark-acqua);
 }
 
-#contact .btn {
+#contact .btn:hover {
     color: white;
     background-color: var(--acqua);
 }
 
+#contact .btn {
+    color: var(--acqua);
+    background-color: white;
+    border: 1px solid var(--acqua);
+}
+
+#contact .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
 /* ______________
 
 FOOTER
