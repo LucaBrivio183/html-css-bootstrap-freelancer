@@ -66,11 +66,12 @@ nav .navbar{
     border-color: var(--acqua);
 }
 
+/* just to make icon-svg white */
 .navbar-toggler-icon {
     filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
 }
 
-
+/* just to make icon-svg acqua */
 .navbar button:hover .navbar-toggler-icon {
     filter: invert(71%) sepia(30%) saturate(3032%) hue-rotate(117deg) brightness(87%) contrast(80%);
 }
@@ -150,10 +151,6 @@ main section {
     border-right: 0;
     border-radius: 0;
     opacity: 0.6;
-}
-
-#contact .form-control:focus {
-        outline: none;   
 }
 
 /* ______________
