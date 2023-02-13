@@ -44,6 +44,7 @@ __________________*/
 
 header {
     background-color: var(--dark-acqua);
+    z-index: 999;
 }
 
 nav .navbar{
