@@ -149,7 +149,13 @@ main section {
     border-left: 0;
     border-right: 0;
     border-radius: 0;
+    opacity: 0.6;
 }
+
+#contact .form-control:focus {
+        outline: none;   
+}
+
 /* ______________
 
 FOOTER
@@ -188,6 +194,7 @@ footer section{
 
 #footer-top .btn:hover {
     background-color: var(--acqua);
+    border-color: var(--dark-acqua);
 }
 
 /* footer-bottom*/
