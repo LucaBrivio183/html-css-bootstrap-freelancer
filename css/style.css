@@ -133,6 +133,11 @@ main section {
     border: .125rem solid var(--dark-acqua);
 }
 
+#contact .btn {
+    color: white;
+    background-color: var(--acqua);
+}
+
 /* ______________
 
 FOOTER
