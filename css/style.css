@@ -45,6 +45,8 @@ __________________*/
 header {
     background-color: var(--dark-acqua);
     z-index: 999;
+    -webkit-box-shadow: 2px 8px 8px -1px rgba(44,62,80,0.82); 
+    box-shadow: 2px 8px 8px -1px rgba(44,62,80,0.82);;
 }
 
 nav .navbar{
@@ -74,6 +76,10 @@ nav .navbar{
 
 /* just to make icon-svg acqua */
 .navbar button:hover .navbar-toggler-icon {
+    filter: invert(71%) sepia(30%) saturate(3032%) hue-rotate(117deg) brightness(87%) contrast(80%);
+}
+
+.navbar button:active {
     filter: invert(71%) sepia(30%) saturate(3032%) hue-rotate(117deg) brightness(87%) contrast(80%);
 }
 
