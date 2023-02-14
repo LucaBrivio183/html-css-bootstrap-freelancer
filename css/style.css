@@ -160,6 +160,13 @@ main section {
     opacity: 0.6;
 }
 
+#contact .form-control:focus {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: inset 0px -35px 5px -30px rgba(44,62,80,0.32); 
+    box-shadow: inset 0px -35px 5px -30px rgba(44,62,80,0.32);
+}
+
 /* ______________
 
 FOOTER
